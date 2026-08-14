@@ -1,0 +1,8 @@
+node_modules/
+dist/
+workspace/
+.pi-subagents/
+.env
+*.tsbuildinfo
+photon-data/
+input/
