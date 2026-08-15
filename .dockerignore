@@ -1,0 +1,7 @@
+.git
+.pi-subagents
+node_modules
+**/dist
+workspace
+.env
+*.tsbuildinfo

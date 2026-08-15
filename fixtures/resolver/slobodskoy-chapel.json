@@ -1,0 +1,74 @@
+[
+  {
+    "id": "egrkn:431410176090006",
+    "source": "egrkn",
+    "sourceId": "431410176090006",
+    "capturedAt": "2026-07-19T17:56:47.514Z",
+    "rawRef": "workspace/pfo/pfo-region-audit-v1/raw/egrkn.ndjson#24",
+    "name": "Часовня - ротонда Иоанна Предтечи",
+    "address": "Кировская область, город Слободской, ул. Советская, 98",
+    "geometry": { "type": "Point", "coordinates": [50.18731408465456, 58.721410418682204] },
+    "fields": { "objectType": "Памятник", "region": "Кировская область", "categoryType": "Федерального значения", "addressClassification": "structured", "nativeGeometryClassification": "object" },
+    "license": "Russian Ministry of Culture open data"
+  },
+  {
+    "id": "osm:w642924635",
+    "source": "osm",
+    "sourceId": "w642924635",
+    "capturedAt": "2026-07-19T17:56:47.514Z",
+    "rawRef": "workspace/pfo/pfo-region-audit-v1/raw/osm.geojsonseq#121698",
+    "name": "Часовня Ионна Предтечи",
+    "address": null,
+    "geometry": { "type": "LineString", "coordinates": [[50.185558, 58.7225098], [50.1855454, 58.7225231], [50.1855414, 58.7225378], [50.1855463, 58.7225524], [50.1855804, 58.7224983], [50.185558, 58.7225098]] },
+    "fields": { "tags": { "building": "yes", "denomination": "russian_orthodox", "historic": "wayside_shrine", "name": "Часовня Ионна Предтечи", "religion": "christian" } },
+    "license": "Open Database License 1.0"
+  },
+  {
+    "id": "osm:a1285849270",
+    "source": "osm",
+    "sourceId": "a1285849270",
+    "capturedAt": "2026-07-19T17:56:47.514Z",
+    "rawRef": "workspace/pfo/pfo-region-audit-v1/raw/osm.geojsonseq#126736",
+    "name": "Часовня Ионна Предтечи",
+    "address": null,
+    "geometry": { "type": "Polygon", "coordinates": [[[50.1855414, 58.7225378], [50.1855454, 58.7225231], [50.185558, 58.7225098], [50.1855804, 58.7224983], [50.185609, 58.7224914], [50.1856405, 58.7224899], [50.185671, 58.7224942], [50.1856968, 58.7225036], [50.185715, 58.722517], [50.1857232, 58.7225328], [50.1857206, 58.7225491], [50.1857074, 58.722564], [50.1856625, 58.7225818], [50.185606, 58.7225823], [50.1855597, 58.7225656], [50.1855414, 58.7225378]]] },
+    "fields": { "tags": { "building": "yes", "denomination": "russian_orthodox", "historic": "wayside_shrine", "name": "Часовня Ионна Предтечи", "religion": "christian" } },
+    "license": "Open Database License 1.0"
+  },
+  {
+    "id": "wikivoyage:Слободской:684961:21",
+    "source": "wikivoyage",
+    "sourceId": "Слободской:684961:21",
+    "capturedAt": "2026-07-15T12:36:23.049Z",
+    "rawRef": "workspace/kirov-oblast/pilot-core-v1/raw/wikivoyage.ndjson#267",
+    "name": "Часовня-ротонда Иоанна Предтечи",
+    "address": null,
+    "geometry": { "type": "Point", "coordinates": [50.18563, 58.72253] },
+    "fields": { "page": "Слободской", "pageUrl": "https://ru.wikivoyage.org/w/index.php?title=%D0%A1%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D1%81%D0%BA%D0%BE%D0%B9&oldid=684961", "description": "Необычная белая ротонда, окружённая колоннадой, построена в 1858 году на северной части ограды некрополя." },
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "id": "osm:a2421057330",
+    "source": "osm",
+    "sourceId": "a2421057330",
+    "capturedAt": "2026-07-19T17:56:47.514Z",
+    "rawRef": "workspace/pfo/pfo-region-audit-v1/raw/osm.geojsonseq#144144",
+    "name": null,
+    "address": "Советская улица, 98",
+    "geometry": { "type": "Polygon", "coordinates": [[[50.18686, 58.7214245], [50.1871377, 58.7211793], [50.1879437, 58.7213896], [50.187704, 58.7216263], [50.18686, 58.7214245]]] },
+    "fields": { "tags": { "addr:city": "Слободской", "addr:housenumber": "98", "addr:street": "Советская улица", "amenity": "place_of_worship", "denomination": "russian_orthodox", "landuse": "religious", "religion": "christian" } },
+    "license": "Open Database License 1.0"
+  },
+  {
+    "id": "egrkn:461410034040006",
+    "source": "egrkn",
+    "sourceId": "461410034040006",
+    "capturedAt": "2026-07-19T17:56:47.514Z",
+    "rawRef": "workspace/pfo/pfo-region-audit-v1/raw/egrkn.ndjson#25",
+    "name": "Кладбищенские ворота церкви Троицы",
+    "address": "Кировская область, г. Слободской, ул. Советская, 98",
+    "geometry": { "type": "Point", "coordinates": [50.186917117720654, 58.72132113041796] },
+    "fields": { "objectType": "Памятник", "region": "Кировская область", "categoryType": "Федерального значения", "addressClassification": "structured", "nativeGeometryClassification": "object" },
+    "license": "Russian Ministry of Culture open data"
+  }
+]
