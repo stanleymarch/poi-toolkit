@@ -6,6 +6,6 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": { "build": "tsc -p tsconfig.json", "typecheck": "tsc -p tsconfig.json --noEmit", "test": "vitest run" },
-  "dependencies": { "@poi-toolkit/core": "workspace:*", "@poi-toolkit/taxonomy": "workspace:*", "@poi-toolkit/media": "workspace:*", "zod": "^3.24.0" },
+  "dependencies": { "@poi-toolkit/core": "workspace:*", "@poi-toolkit/taxonomy": "workspace:*", "@poi-toolkit/media": "workspace:*", "zod": "^4.4.3" },
   "devDependencies": { "vitest": "^2.1.8" }
 }
