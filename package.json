@@ -1,5 +1,5 @@
 {
   "name": "poi-toolkit", "private": true, "version": "0.1.0", "packageManager": "pnpm@9.15.4", "engines": {"node": ">=22 <25"},
   "scripts": {"build": "corepack pnpm --filter @poi-toolkit/core build && corepack pnpm -r build", "typecheck": "corepack pnpm --filter @poi-toolkit/core build && corepack pnpm -r typecheck", "test": "corepack pnpm --filter @poi-toolkit/core build && corepack pnpm -r test", "cli": "node packages/cli/dist/index.js"},
-  "devDependencies": {"@types/node": "^22.10.2", "typescript": "^5.7.2", "vitest": "^2.1.8"}
+  "devDependencies": {"@types/node": "^22.10.2", "typescript": "^7.0.2", "vitest": "^2.1.8"}
 }
