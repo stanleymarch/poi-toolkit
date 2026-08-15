@@ -113,18 +113,24 @@ docker run --rm -e MKRF_API_KEY -e GEOCODER_API_KEY \
 
 ## Готовые bundle (GitHub Releases)
 
-Публиковать датасет вручную не нужно — готовые **immutable v1-bundle** для импорта в Nearventure
-выпускаются в [GitHub Releases](https://github.com/stanleymarch/poi-toolkit/releases) этого репозитория
-(например, `v0.1.0`: PFO, 30 163 POI, SQL + строгий манифест импорта + SHA-256).
+Если нужен только импорт датасета в Nearventure, запускать весь пайплайн сбора
+не обязательно — готовые **immutable v1-bundle** публикуются в
+[GitHub Releases](https://github.com/stanleymarch/poi-toolkit/releases) этого репозитория.
+Текущий release — `v0.1.0` (территория ПФО, 30 163 POI).
 
 Каждый release содержит:
 
-- `<run-id>.bundle.tar.gz` — архив в layout импортёра (`reports/poi_product_import.sql`,
-  `reports/poi_product_import.manifest.json`, `reports/collection-provenance.json`, `release/manifest.json`);
+- `nearventure-<territory>-<tag>.bundle.tar.gz` — архив в layout импортёра
+  (`reports/poi_product_import.sql`, `reports/poi_product_import.manifest.json`,
+  `reports/collection-provenance.json`, `release/manifest.json`);
 - `SHA256SUMS.txt` — SHA-256 каждого файла (дайджест SQL закреплён и внутри манифеста);
 - `bundle.sha256` — SHA-256 всего архива.
 
-Приём и импорт bundle описывает потребитель Nearventure: [docs/data-refresh.md](https://github.com/stanleymarch/nearventure/blob/main/docs/data-refresh.md) → «Приём v1 bundle».
+Внутренний идентификатор прогона (`run.id`, например `pfo-slobodskoy-repair-v1`) остаётся
+в манифесте как provenance и не обязан совпадать с именем release-файла.
+
+Приём и импорт bundle описывает потребитель Nearventure:
+[docs/data-refresh.md](https://github.com/stanleymarch/nearventure/blob/main/docs/data-refresh.md) → «Приём v1 bundle».
 
 ### Аттестация унаследованных сохранённых сырых артефактов
 
