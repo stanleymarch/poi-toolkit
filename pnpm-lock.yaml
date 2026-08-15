@@ -98,8 +98,8 @@ importers:
         specifier: ^1.10.0
         version: 1.26.2
       hyparquet-writer:
-        specifier: ^0.16.1
-        version: 0.16.1
+        specifier: ^0.16.6
+        version: 0.16.6
     devDependencies:
       vitest:
         specifier: ^2.1.8
@@ -664,14 +664,14 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
-  hyparquet-writer@0.16.1:
-    resolution: {integrity: sha512-vb87T2ub06kbEKZOQoHTbVwN0kXQPM5mnMuyTNqQPsOzf85qYBzyFG6R83CnXNhrlncdpRtXeKrbF3ZoLj26pg==}
-
-  hyparquet@1.26.1:
-    resolution: {integrity: sha512-Me2psKksCqJGR8+TbalUYUyK4Ao+ReA6XmMSiOVPhOBswULbl3ojT06PQajyTafbNPW1vD0tCA7H6dXJAC1TPw==}
+  hyparquet-writer@0.16.6:
+    resolution: {integrity: sha512-KK3FhIf/yPhDi63rAEV6Di9tLZXDGYqXcOMVS2Ssm5zerEkrfc71REfGCFcEKtiiATGzd9kq5uWcy8JeCapQVQ==}
 
   hyparquet@1.26.2:
     resolution: {integrity: sha512-6qjyK7R2tZ4vnYP1J8NpcCeDPK1UIYk3xh5XgtQUnUM1iwkYbvI6Mz3xtmpMd6AfCCeoUoJVbEq29k5GReZRWA==}
+
+  hyparquet@1.28.1:
+    resolution: {integrity: sha512-04PlyhYZpNDVaOjJNX4SP00beWf9Y9vXEOEQXSMFqVQNzxGxTmsJOQgBjar8VzLpT6E2kxNiWKL539e1dHcOVA==}
 
   loupe@3.2.1:
     resolution: {integrity: sha512-CdzqowRJCeLU72bHvWqwRBBlLcMEtIvGrlvef74kMnV2AolS9Y8xUv1I0U/MNAWMhBlKIoyuEgoJ0t/bbwHbLQ==}
@@ -1067,13 +1067,13 @@ snapshots:
   fsevents@2.3.3:
     optional: true
 
-  hyparquet-writer@0.16.1:
+  hyparquet-writer@0.16.6:
     dependencies:
-      hyparquet: 1.26.1
-
-  hyparquet@1.26.1: {}
+      hyparquet: 1.28.1
 
   hyparquet@1.26.2: {}
+
+  hyparquet@1.28.1: {}
 
   loupe@3.2.1: {}
 
